@@ -294,40 +294,45 @@ img {
 
 
 header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto
 }
 
 .page-nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .page-nav ul {
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
 }
 
 .page-address {
-  margin-left: auto;
+    margin-left: auto;
 }
 
 .page-address ul {
-  display: flex;
-  gap: 40px;
+    display: flex;
+    gap: 40px;
 }
 
 .page-features {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .page-features li {
-  flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+    display: flex;
+    flex-direction: column;
 }
 
 .our-team ul{
@@ -356,3 +361,4 @@ header .container {
 .header {
     border-bottom: 1px solid #e7e9fc;
   }
+  
