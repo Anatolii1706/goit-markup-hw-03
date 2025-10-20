@@ -223,30 +223,27 @@ h1 {
 }
 
 .member {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0 0 4px 4px;
+  flex: 0 0 calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box; /* важливо для падінгів */
 }
 
 .our-team div {
     padding: 32px 0;
 }
 
-.team-member {
-    display: flex;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
+.team-members {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.members-list .member-info {
-    padding: 32px 0;
+.member-info {
+  padding: 32px 0; /* тільки вертикальний падінг */
+  box-sizing: border-box;
 }
-
-
 
 .page-footer .logo .stud {
     color: #f4f4fd;
@@ -350,6 +347,7 @@ header .container {
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
+    padding: 32px 0;
 }
 
 .member-name {
