@@ -192,7 +192,7 @@ h1 {
 }
 
 .our-team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
     padding: 120px 0;
 }
 
@@ -221,9 +221,10 @@ h1 {
 
 .member {
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
-.our-team .container {
+.our-team div {
     padding: 32px 0;
 }
 
@@ -368,7 +369,7 @@ header .container {
 .members-list {
     flex-basis: calc((100% - 72px) / 4);
     text-align: center;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
 }
 
