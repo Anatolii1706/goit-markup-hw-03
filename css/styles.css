@@ -221,16 +221,11 @@ h1 {
 }
 
 .container { 
-    display: flex;
     max-width: 1158px;
-    padding-left:  
-    padding-right:  
-    margin-left:  
-    margin-right:  
-}
-
-.page-nav {
-    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:
+    margin-right:
 }
 
 h1,
@@ -266,3 +261,63 @@ section {
 img {
     display: block
 }
+
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.page-address {
+  margin-left: auto;
+}
+
+.page-address ul {
+  display: flex;
+  gap: 40px;
+}
+
+.page-features {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.page-features li {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.our-team ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.members-list {
+  flex-basis: calc((100% - 72px) / 4);
+  text-align: center;
+}
+
+.page-portfolio ul {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.page-portfolio li {
+  flex-basis: calc((100% - 72px) / 3);
+  text-align: center;
