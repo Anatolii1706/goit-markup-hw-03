@@ -154,6 +154,7 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo .span {
@@ -224,8 +225,8 @@ h1 {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left:
-    margin-right:
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h1,
@@ -267,6 +268,7 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
 }
 
 .page-nav {
@@ -321,3 +323,7 @@ header .container {
 .page-portfolio li {
   flex-basis: calc((100% - 72px) / 3);
   text-align: center;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+  }
