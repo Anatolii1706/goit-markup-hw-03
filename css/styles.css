@@ -232,6 +232,7 @@ h1 {
 }
 
 .team-member {
+    display: flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -239,7 +240,6 @@ h1 {
     color:  #2e2f42;
     text-align: center;
     margin-bottom: 8px;
-    flex-basis: calc((100% - 72px) / 4)
 }
 
 .members-list .member-info {
