@@ -239,6 +239,7 @@ h1 {
     color:  #2e2f42;
     text-align: center;
     margin-bottom: 8px;
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .members-list .member-info {
@@ -376,12 +377,10 @@ header .container {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-
-/* line-height: 40px; */ 
-line-height: 111%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .portfolio-list {
@@ -398,7 +397,8 @@ color: #2e2f42;
 }
 
 .portfolio-item {
-  flex: 0 1 calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
+  border-radius: 0;
 }
 
 .app-title {
