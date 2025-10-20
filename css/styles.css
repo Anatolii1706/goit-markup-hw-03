@@ -219,6 +219,14 @@ h1 {
     text-align: center;
 }
 
+.member {
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team .container {
+    padding: 32px 0;
+}
+
 .team-member {
     font-weight: 500;
     font-size: 20px;
@@ -362,6 +370,15 @@ header .container {
     text-align: center;
     background-color: #FFFFFF
     border-radius: 0 0 4px 4px;
+}
+
+.member-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.member-position {
+    text-align: center;
 }
 
 .page-portfolio ul {
