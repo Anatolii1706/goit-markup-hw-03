@@ -193,6 +193,7 @@ h1 {
 
 .our-team {
     background-color: #F4F4FD
+    padding: 120px 0;
 }
 
 .team {
@@ -202,11 +203,20 @@ h1 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
+
+.our-team ul {
+    display: flex;
+    gap: 24px;
+}
+
 .parag {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
 }
 
 .team-member {
@@ -215,10 +225,12 @@ h1 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.members-list {
-    background-color: #FFFFFF
+.members-list .member-info {
+    padding: 32px 0;
 }
 
 .section-portfolio {
@@ -342,8 +354,10 @@ header .container {
 }
 
 .members-list {
-  flex-basis: calc((100% - 72px) / 4);
-  text-align: center;
+    flex-basis: calc((100% - 72px) / 4);
+    text-align: center;
+    background-color: #FFFFFF
+    border-radius: 0 0 4px 4px;
 }
 
 .page-portfolio ul {
@@ -361,4 +375,3 @@ header .container {
 .header {
     border-bottom: 1px solid #e7e9fc;
   }
-  
