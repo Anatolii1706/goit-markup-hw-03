@@ -347,6 +347,10 @@ header .container {
     flex-direction: column;
 }
 
+.feature {
+    margin-bottom: 8px;
+}
+
 .our-team ul{
     display: flex;
     justify-content: space-between;
