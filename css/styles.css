@@ -1,28 +1,30 @@
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: #fff;
-    color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul,
 ol {
-    list-style: none;
-    margin: 0; 
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .page-nav .link a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .page-nav .link a:hover,
@@ -31,65 +33,65 @@ ol {
 }
 
 .page-address {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
 }
 
 #studio {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 .stud {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.link:hover, .link:focus {
-    color: #404bbf;
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
 .page-address a:hover,
 .page-address a:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .page-studio {
-    background-color: #2e2f42;
-     padding: 188px 0;
+  background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 .page-footer {
-    background-color: #2e2f42;
-    padding: 100px 0;
+  background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .page-studio .container {
@@ -126,7 +128,6 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 .page-button:hover,
@@ -135,101 +136,97 @@ h1 {
 }
 
 .page-features .feature {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .page-features .feature-description {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .page-footer .footer-description {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .page-nav .logo:hover,
 .page-nav .logo:focus,
 .page-footer .logo:hover,
 .page-footer .logo:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .page-nav .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 76px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .page-footer .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo .span {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .our-team {
-    background-color: #F4F4FD;
-    padding: 120px 0;
+  background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .our-team ul {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .parag {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
 }
 
 .member {
+  background-color: #fff;
   flex: 0 0 calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
   box-sizing: border-box; /* важливо для падінгів */
-}
-
-.our-team div {
-    padding: 32px 0;
 }
 
 .team-members {
@@ -246,14 +243,14 @@ h1 {
 }
 
 .page-footer .logo .stud {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
 
-.container { 
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 h1,
@@ -268,117 +265,119 @@ ul {
   margin-bottom: 0;
 }
 
+h3 {
+  font-weight: 500;
+}
+
 section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 img {
-    display: block
+  display: block;
 }
 
-
 header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .page-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .page-nav ul {
-    display: flex;
-    gap: 40px;
-    margin-left: 76px;
+  display: flex;
+  gap: 40px;
 }
 
 .page-address {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .page-address ul {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .page-features {
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .page-features li {
-    flex-basis: calc((100% - 72px) / 4);
-    display: flex;
-    flex-direction: column;
+  flex-basis: calc((100% - 72px) / 4);
+  display: flex;
+  flex-direction: column;
 }
 
 .feature {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-.our-team ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
+.our-team ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .members-list {
-    text-align: center;
-    background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
-    padding: 32px 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 32px 0;
 }
 
 .member-name {
-    text-align: center;
-    margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .member-position {
-    text-align: center;
+  text-align: center;
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc;
-  }
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .app-name {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .section-portfolio {
-    margin-bottom: 72px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+  margin-bottom: 72px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 * {
@@ -386,26 +385,25 @@ header .container {
 }
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 .app-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
   border-radius: 0;
-  
 }
 
 .app-title {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
